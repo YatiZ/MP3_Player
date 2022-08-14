@@ -1,0 +1,48 @@
+body{
+    background-color: pink;
+}
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.playListContainer{
+    margin-bottom: 100px;
+}
+.trackItem{
+    color: rgb(94, 19, 244);
+    font-size: 20px;
+    border-bottom: 1px solid rgb(23, 14, 1);
+    padding: 10px 0px;
+    cursor:grab;
+    user-select: none;
+}
+
+#progressBar{
+    width: 500px;
+    height: 5px;
+    background-color: #6c757d;
+}
+#currentProgress{
+    width: 0px;
+    height: 100%;
+    background-color: #dc3545;
+}
+.musicPlayer{
+    display: flex;
+    flex-direction: row;
+}
+.currentAndTotalTime{
+    color: aliceblue;
+}
+.controls{
+    margin: 15px 50px;
+    font-size:30px ;
+    cursor: pointer;
+    color: aliceblue;
+}
+.pauseButton{
+    display: none;
+}
